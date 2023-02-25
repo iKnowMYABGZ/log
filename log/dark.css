@@ -1,0 +1,26 @@
+body
+{
+    background: #111;
+    color: #f4f4f4;
+}
+.main-block_int2{
+border-bottom: 2px solid #f4f4f4;
+color: white;
+}
+.main-block_int2:focus{
+border-bottom: 2px solid #FF432A;
+}
+
+.main-block_int3{
+    color: #f4f4f4;
+}
+.theme-button
+{
+    color: #f4f4f4;
+    background: #4f7faf;
+}
+
+.theme-button:hover
+{
+    background: #6f9fcf;
+}

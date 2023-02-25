@@ -1,0 +1,18 @@
+body
+{
+    background: #f4f4f4;
+    color: #111;
+}
+.main-block_int3{
+color: #111;
+}
+.theme-button
+{
+    color: #f4f4f4;
+    background: #FF432A;
+}
+
+.theme-button:hover
+{
+    background: #555;
+}

@@ -1,0 +1,347 @@
+*,
+**::after,
+**::before{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,body{
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	font-family: Poppins;
+	transition: all 0.4s ease;
+    background: var(--theme-color);
+    color: var(--primary-color); 
+}
+/*--------------------------------------------------------------*/
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/*--------------------------------------------------------------*/
+.container{
+	max-width: 1326px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+.ibg{
+	position: relative;
+}
+.ibg img{
+	position: relative;
+	width: 61%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+/*-----------------------------HEADER------------------------------*/
+.logo{
+	position: absolute;
+	width: 100%;
+    left: 0;
+    top: 0;
+}
+.logo_title{
+    padding: 31px 0px 839px 0px;
+    position: relative;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.back_image{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+@media (max-width: 1005px){
+	.back_image{
+		display: none;
+	}
+	.main-block_body{
+	position: relative;
+	margin: 0px 0px 0px -400px;
+	}
+	.main-block_button{
+    width: 318px;
+	}
+	.main-block_cont{
+	margin: 0px 0px 0px -250px;
+	}
+}
+@media (max-width: 767px){
+	.back_image{
+		display: none;
+	}
+	.main-block_body{
+	position: relative;
+	margin: 0px 0px 0px -340px;
+	}
+	.main-block_button{
+    width: 318px;
+	}
+	.main-block_cont{
+	margin: 0px 0px 0px -150px;
+	}
+}
+@media (max-width: 540px){
+	.back_image{
+		display: none;
+	}
+	.main-block_body{
+	position: relative;
+	margin: 0px 0px 0px -300px;
+	}
+	.main-block_button{
+    width: 318px;
+	}
+	.main-block_cont{
+	margin: 0px 0px 0px -60px;
+	}
+}
+@media (max-width: 479px){
+	.back_image{
+		display: none;
+	}
+	.main-block_body{
+	position: relative;
+	margin: 0px 0px 0px -250px;
+	}
+	.main-block_button{
+    width: 300px;
+    justify-content: center;
+	}
+    .main-block_cont{
+    	margin: 0px 0px 0px -3px;
+    }
+}
+
+/*------------------------------EASY ONE----------------------------*/
+.main-block_body{
+padding: 132px 0px 0px 70%;
+position: relative;
+}
+.main-block_title{
+font-size: 30px;
+font-weight: 500;
+line-height: 150%;
+padding: 0px 0px 22px 0px;
+}
+.main-block_sub{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+padding: 0px 0px 6px 0px;
+}
+.main-block_help{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+padding: 0px 0px 52px 0px;
+display: flex;
+}
+.main-block_help2{
+padding: 0px 0px 0px 14px;
+}
+.main-block_email{
+font-size: 13px;
+font-weight: 500;
+line-height: 146%;
+padding: 0px 0px 11px 0px;
+}
+/*-----------LINES AND IMAGES(and text of course)---------------*/
+.main-block_int{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+padding: 0px 0px 1px 0px;
+display: flex;
+}
+.main-block_int1{
+padding: 6px 10.37px 0px 0px;
+width: 20px;
+}
+.main-block_int1 img{
+width: 17px;
+}
+.main-block_int2{
+	background-color: transparent;
+	outline: none;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #000000;
+}
+.main-block_int3{
+position: absolute;
+padding-left: 27px;
+}
+.main-block_int2:focus{
+border-bottom: 2px solid #FF432A;
+}
+.main-block_int2:focus ~ .main-block_int3,
+.main-block_int2:not(:placeholder-shown) ~ .main-block_int3{
+display: none;
+}
+.main-block_pass{
+font-size: 13px;
+font-weight: 500;
+line-height: 146%;
+padding: 49px 0px 11px 0px;
+}
+.main-block_passing{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+color: #000000;
+display: flex;
+}
+.main-block_passing1{
+padding: 4px 10px 0px 0px;
+}
+.main-block_passing1 img{
+width: 20px;
+}
+.eye{
+padding: 6px 0px 0px 0px;
+}
+.eye img{
+width: 17px;
+}
+.main-block_cube{
+padding: 0px 10px 0px 0px;
+}
+.main-block_memory{
+font-size: 12px;
+font-weight: 300;
+line-height: 150%;
+padding: 17px 0px 60px 0px;
+display: flex;
+}
+.main-block_memory2{
+padding: 0px 0px 0px 173px;
+}
+.main-block_button{
+background: #FF432A;
+box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+border-radius: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 48px;
+padding: 5px 36px;
+max-width: 429px;
+cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.main-block_button:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  }
+.main-block_login{
+color: #FFFFFF;
+font-size: 17px;
+font-weight: 500;
+line-height: 147%;
+}
+@media (max-width: 479px){
+	.main-block_button{
+		flex: 1 1 auto;
+	}
+}
+.main-block_cont{
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+color: gray;
+padding: 52px 0px 33.59px 0px;
+text-align: center;
+}
+.icons{
+display: flex;
+justify-content: center;
+}
+.icons img{
+width: 38px;
+padding:0px 20px 0px 13px;
+}
+
+/*---------------------------BUTTON-----------------------------*/
+.theme__button {
+	position: absolute;
+	top: 30px;
+	right: 1%;
+	background: #FF432A;
+	color: white;
+	height: 30px;
+	padding: 0 15px;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+  .theme__button:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  }
+/*--------------------------------------------------------------*/
+.popup{
+position: fixed;
+width: 100%;
+height: 100%;
+background-color: #969696d7;
+top: 0;
+left: 0;
+opacity: 0;
+visibility: hidden;
+}
+.popup:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup_body{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup_content{
+	background-color: #FFFFFF;
+	color: #000000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;
+}
+.popup_close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.popup_title{
+	font-size: 40px;
+	margin: 0px 0px 10px 0px;
+}
+/*--------------------------------------------------------------*/
